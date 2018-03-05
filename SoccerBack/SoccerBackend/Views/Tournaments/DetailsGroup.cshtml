@@ -9,7 +9,7 @@
 
 <p>
     @Html.ActionLink("Create New", "CreateTeam", new { id = Model.TournamentGroupId }, new { @class = "btn btn-primary" })
-    @Html.ActionLink("Back to Tournament", "Details", new { id = Model.TournamentId }, new { @class = "btn btn-success" })
+    @Html.ActionLink("Back to Group", "Details", new { id = Model.TournamentId }, new { @class = "btn btn-success" })
 </p>
 @if (Model.TournamentTeams.Count == 0)
 {

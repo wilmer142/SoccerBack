@@ -50,11 +50,17 @@
     <Compile Include="DataContext.cs" />
     <Compile Include="Entidades\Date.cs" />
     <Compile Include="Entidades\League.cs" />
+    <Compile Include="Entidades\Match.cs" />
+    <Compile Include="Entidades\Status.cs" />
     <Compile Include="Entidades\Tournament.cs" />
     <Compile Include="Entidades\TournamentGroup.cs" />
     <Compile Include="Entidades\TournamentTeam.cs" />
+    <Compile Include="Entidades\User.cs" />
+    <Compile Include="Entidades\UserType.cs" />
+    <Compile Include="MatchesMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entidades\Team.cs" />
+    <Compile Include="UsersMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
